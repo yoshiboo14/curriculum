@@ -1,6 +1,6 @@
 <?php
-    echo 'Hello World!';
-    echo 1234;
+//echo 'Hello World!';
+//echo 1234;
 ?>
 <html>
   <p>
