@@ -1,0 +1,40 @@
+@media screen and (max-width: 479px) {
+  .whole {
+    width: 200px;
+  }
+  .top {
+    height: 200px;
+  }
+  .white {
+    height: 160px;
+    width: 60px;
+    flex-direction: column;
+    top: 20px;
+    left: 70px;
+  }
+  .middle1 {
+    height: 100px;
+    width: 200px;
+    background-color: #80bfa8;
+  }
+  .flex1 {
+    display: block;
+  }
+  .middle2 {
+    height: 200px;
+    width: 200px;
+    background-color: #8c2727;
+  }
+  .child1 {
+    top: 20px;
+    left: 30px;
+  }
+  .child2 {
+    top: 80px;
+    left: 30px;
+  }
+  .child3 {
+    top: 140px;
+    left: 30px;
+  }
+}
