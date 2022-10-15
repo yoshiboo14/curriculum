@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.whole {
+  width: 400px;
+  height: 450px;
+  background-color: red;
+}
+.top {
+  height: 100px;
+  background-color: #141f40;
+}
+.flex1 {
+  display: flex;
+}
+.middle1 {
+  height: 250px;
+  width: 150px;
+  background-color: #80bfa8;
+}
+.middle2 {
+  height: 250px;
+  width: 250px;
+  /* background-color: blue; */
+}
+.middle2-1 {
+  height: 50px;
+  width: 150px;
+  background-color: #dbd400;
+}
+.flex2 {
+  display: flex;
+}
+.middle2-2 {
+  height: 100px;
+  width: 150px;
+  background-color: #0093b7;
+}
+.middle2-3 {
+  height: 150px;
+  width: 100px;
+  background-color: #ff9e6b;
+}
+.middle2-4 {
+  height: 100px;
+  width: 250px;
+  background-color: #8c2727;
+}
+
+.bottom {
+  height: 100px;
+  background-color: #d98d30;
+}

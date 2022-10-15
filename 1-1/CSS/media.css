@@ -1,0 +1,67 @@
+@media screen and (min-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
+  .whole {
+    width: 300px;
+  }
+  /* .middle1 {
+    width: 100px;
+  } */
+  .middle2-1to2-2 {
+    width: 125px;
+  }
+  .middle2-3 {
+    width: 75px;
+  }
+  .middle2-4 {
+    width: 200px;
+  }
+}
+
+/* コードもう少しまとめれたかも */
+@media screen and (max-width: 479px) {
+  body {
+    height: 700px;
+  }
+  .whole {
+    width: 150px;
+    height: 700px;
+  }
+  /* .middle {
+    width: 100%;
+  } */
+  .middle1 {
+    height: 100px;
+  }
+  .flex1 {
+    display: block;
+  }
+  .flex2 {
+    display: block;
+  }
+  .middle1 {
+    width: 150px;
+  }
+  .middle2 {
+    width: 150px;
+    height: 400px;
+  }
+  .middle2-1to2-2 {
+    width: 150px;
+  }
+  .middle2-1 {
+    height: 100px;
+  }
+  .middle2-2 {
+    height: 100px;
+  }
+  .middle2-3 {
+    width: 150px;
+    height: 100px;
+  }
+  .middle2-4 {
+    width: 150px;
+    height: 100px;
+  }
+}
