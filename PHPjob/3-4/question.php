@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./CSS/style.css">
 <?php
 //POST送信で送られてきた名前を受け取って変数を作成
 
@@ -6,8 +7,8 @@ $name = $_POST["name"];
 //①画像を参考に問題文の選択肢の配列を作成してください。
 
 $netNumber=[80,22,20,21];
-$lang=[PHP,Python,Java,HTML];
-$command=[join,select,insert,update];
+$lang=["PHP","Python","Java","HTML"];
+$command=["join","select","insert","update"];
 
 //② ①で作成した、配列から正解の選択肢の変数を作成してください
 

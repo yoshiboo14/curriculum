@@ -264,7 +264,54 @@ echo var_dump($color);
 // 3 処理が終わったら、次の1個を持ってきて、また$valueに入れる。
 // 4 1〜3を配列の全ての要素に対してループさせる。
 
+echo "<br>";
+$fruits = ["りんご","みかん","ぶどう"];
+foreach($fruits as $value){
+  echo "<br>";
+  echo $value;
+}
 // 連想配列の場合
 // as以降の文が異なる
 
+echo "<br>";
+$fruits = ["apple" => "りんご", "orange" => "みかん","grape" => "ぶどう"];
+foreach($fruits as $key => $value){
+  echo "<br>";
+  echo $value;
+}
+
+// チャレンジ問題
+//OK(動作OK)
+$fruits = ["apple" => "りんご", "orange"=> "みかん", "peach"=>"もも"];
+foreach($fruits as $key => $value){
+  echo "<br>";
+  echo "{$key}といったら{$value}";
+}
+?>
+
+<!-- 関数 --><!-- jsと同じ -->
+
+<?php
+
+function square($base,$height){
+  $area = $base * $height;
+  echo "四角形の面積は{$area}平方です";
+}
+
+echo "<br>";
+square(4,6);
+
+//ローカル変数（関数の中で定義した変数のこと）
+// 関数の外では、関数内での値の変更は無視される。
+// このような仕組みを 変数のスコープいう。
+
+// チャレンジ問題
+function cube($width, $height, $high){
+  $area = $height * $width;
+  $volume = $area * $high;
+  echo "{$volume}立方センチメートル";
+}
+
+echo "<br>";
+cube(5,10,8);
 ?>
