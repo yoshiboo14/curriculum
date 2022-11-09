@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="./CSS/style.css">
+<link rel="stylesheet" href="./CSS/style2.css">
 <?php
 //POST送信で送られてきた名前を受け取って変数を作成
 

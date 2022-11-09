@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="./CSS/style2.css">
 <?php 
 //[question.php]から送られてきた名前の変数、選択した回答、問題の答えの変数を作成
 // $question = "question.php";
@@ -23,16 +24,18 @@ function Answer($select,$answer){
 }
 ?>
 
-<p><!--POST通信で送られてきた名前を表示--><?php echo $Name ?>さんの結果は・・・？</p>
-
-<p>①の答え</p>
-<!--作成した関数を呼び出して結果を表示-->
-<?php Answer($selectedNum,$trueNetNumber);?>
-
-<p>②の答え</p>
-<!--作成した関数を呼び出して結果を表示-->
-<?php Answer($selectedLang,$trueLang);?>
-
-<p>③の答え</p>
-<!--作成した関数を呼び出して結果を表示-->
-<?php Answer($selectedCommand,$trueCommand);?>
+<div class="container">
+    <p><!--POST通信で送られてきた名前を表示--><?php echo $Name ?>さんの結果は・・・？</p>
+    
+    <p>①の答え</p>
+    <!--作成した関数を呼び出して結果を表示-->
+    <?php Answer($selectedNum,$trueNetNumber);?>
+    
+    <p>②の答え</p>
+    <!--作成した関数を呼び出して結果を表示-->
+    <?php Answer($selectedLang,$trueLang);?>
+    
+    <p>③の答え</p>
+    <!--作成した関数を呼び出して結果を表示-->
+    <?php Answer($selectedCommand,$trueCommand);?>
+</div>

@@ -1,0 +1,17 @@
+body {
+  background-color: gray;
+}
+
+.container {
+  margin-top: 160px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 80px;
+}

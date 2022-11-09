@@ -16,14 +16,22 @@ img {
   background-color: #87ceeb;
 }
 
-/* .one p {
+.one p {
   margin: 0;
-} */
+  text-align: right;
+  line-height: 60px;
+}
 
 .two {
   width: 800px;
   height: 60px;
   background-color: #00ffff;
+}
+
+.two p {
+  margin: 0;
+  text-align: right;
+  line-height: 60px;
 }
 
 .article {
