@@ -1,0 +1,13 @@
+body {
+  margin-top: 150px;
+}
+
+.container {
+  height: 250px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form {
+  text-align: center;
+}

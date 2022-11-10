@@ -19,6 +19,7 @@ check_user_logged_in();
 require("db_connect.php");
 // 関数db_connect()からPDOを取得する
 $pdo = db_connect();
+
 try {
 
     // 準備するSQL
